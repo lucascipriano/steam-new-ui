@@ -1,0 +1,45 @@
+.container {
+  border-bottom: 2px solid #242e63;
+  .wrapper {
+    width: 90%;
+    max-width: 1216px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 79px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      gap: 3.5rem;
+    }
+    .group {
+      display: flex;
+      align-items: center;
+      button {
+        border: none;
+        color: white;
+        padding: 8px 16px;
+        gap: 16px;
+        border-radius: 4px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        background: #070a1b;
+        &.session {
+          border: 1px solid #a3aacc;
+          margin-right: 16px;
+          margin-left: 24px;
+        }
+
+        &.install {
+          background: #41a112;
+        }
+      }
+    }
+  }
+}
